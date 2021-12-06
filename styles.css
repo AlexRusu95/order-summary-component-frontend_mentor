@@ -1,0 +1,100 @@
+body {
+    font-family: "Red Hat Display";
+    background-color: hsl(225, 100%, 95%);
+    text-align: center;
+    line-height: 1;
+}
+
+h1, h4 {
+    font-weight: 900;
+}
+
+p {
+    color:hsl(224, 23%, 55%);
+    line-height: 0.5;
+}
+
+.background-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    width: 1440px;
+}
+
+.card {
+    border-radius: 25px;
+    margin: 25px auto;
+    width: fit-content;
+    background-color: white;
+}
+
+.card img {
+    border-radius: 25px 25px 0 0;
+}
+
+.content {
+    padding: 25px 10% 10px;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+    justify-content: flex-end;
+    margin: 25px 0;
+}
+
+.plan h4 {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.plan p {
+    margin-top: 10px;
+}
+
+.plan img {
+    padding: 15px 0;
+}
+
+.right {
+    margin-left:auto;
+}
+
+.right a:hover {
+    text-decoration: none;
+}
+
+.plan-style {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 0 25px;
+}
+
+.button {
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 15px 20px lightgrey;
+}
+
+.button:hover {
+    opacity: 80%;
+    cursor:pointer;
+}
+
+.button h5 {
+    padding: 15px;
+    color:hsl(225, 100%, 98%)
+}
+
+.cancel {
+    margin-top: 30px;
+    color:hsl(224, 23%, 55%);
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
